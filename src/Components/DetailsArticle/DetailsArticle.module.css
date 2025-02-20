@@ -1,0 +1,17 @@
+.articleName {
+ font-weight: 700;
+ line-height: 84px;
+ font-size: 34px;
+ text-align: center;
+  }
+  
+  .articleImage {
+   border-radius: 10px;
+  }
+  
+  .articleDescription {
+   font-weight: 400;
+   line-height: 44px;
+   font-size: 24px;
+  }
+  

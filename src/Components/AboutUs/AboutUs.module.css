@@ -1,0 +1,44 @@
+.fonts {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font to the component */
+    color: #000000;
+  
+  }
+  .one, .three {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+     
+}
+.headerDemo {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 13px;
+        margin-top: 9px;
+}
+ .dash{
+  color: #90CDF4;
+  line-height: 27px;
+  
+}
+.cardImg {
+    width:704px;
+    display: flex;
+    justify-content:center;
+    position: relative;
+}
+.imag {
+    display: inline-block;
+
+ 
+}
+.imag1{
+    margin-right: -180px;
+}
+.imag2{
+    margin-left: -150px;
+}

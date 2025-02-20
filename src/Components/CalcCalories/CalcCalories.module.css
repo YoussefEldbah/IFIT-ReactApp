@@ -1,0 +1,37 @@
+
+.titleCheck
+{
+font-weight: 400;
+font-size: 30px;
+}
+.titleCalories,titleP
+{
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+.titleGet
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* styles.module.css */
+.selectWrapper select {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+  }
+  
+  .selectWrapper.active select:focus,
+  .selectWrapper.active select:active {
+    border: none;
+    outline: none;
+  }
+  .selected {
+    border: none !important;
+  }  
+  .btnCalc
+  {
+    margin-left: 90px;
+  }

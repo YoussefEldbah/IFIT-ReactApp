@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+        padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+
+
+.fonts {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font to the component */
+  color: #000000;
+
+}
+.one, .three {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+     
+}
+.headerDemo {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 13px;
+        margin-top: 9px;
+}
+ .dash{
+  color: #90CDF4;
+  line-height: 27px;
+  
+}
+
+img {
+    /* display: block; */
+    width: 100%;
+}
+.main {
+        display: flex;
+        justify-content: center;
+ 
+}
+.cardImg {
+    width:704px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.videoIcon {
+  position: absolute;
+    top: 55%;
+    transform: translateY(-107%);
+    left: 47%;
+
+}
+.two, .one , .three {
+        padding: 50px;
+}
+.videoIcon a::after {
+    content: "";
+    position: absolute;
+ 
+        border: 44px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+   left: -21px;
+    top: -21px;
+    right: 0;
+    z-index: -1;
+    background: #E6E6E6;
+}
+ .videoIcon a {
+    background: #fff;
+    color: #E6E6E6;
+      width: 43px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    transition: all 0.5s;
+ }
+ .videoIcon i {
+        position: absolute;
+    top: 33%;
+    right: 34%;
+ }
+.imag {
+    display: inline-block;
+
+ 
+}
+.imag1{
+    margin-right: -180px;
+}
+.imag2{
+    margin-left: -150px;
+}
+.three p {
+    font-size: 18px;
+    font-weight: 700px;
+    color: #63B3ED;
+}
+.three .cardImg {
+    width: 387px;
+}
+.three .card{
+       width: 389px;
+    text-align: left;
+    background: #3182CE;
+    padding: 11px 30px 7px;
+    margin-top: 34px;
+    color: white;
+    border-radius: 42px;
+   
+
+  position: relative;
+
+}
+.three .card p {
+    font-size: 11px;
+    color: white;
+    line-height: 1.6;
+    position: relative;
+}
+.three .text {
+    padding-bottom: 20px;
+}
+.three .card::after {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 245px;
+    border-radius: 20px;
+    background:#90CDF4;
+    right: 0;
+    top: 0;
+    opacity: 20%;
+    left: 100%;
+  
+
+
+
+}
+.three .card::before {
+      content: "";
+    position: absolute;
+    width: 55%;
+    height: 18px;
+    border-radius: 20px;
+    background:#90CDF4;
+    top: -15px;
+    right: -13px;
+    
+ 
+  
+
+
+
+}
+ .pipLine {
+       position: absolute;
+    width: 91%;
+    height: 18px;
+    border-radius: 20px;
+    background: #90CDF4;
+    bottom: -10px;
+    right: -13px; 
+}
+
+
+
+
+
+
+  

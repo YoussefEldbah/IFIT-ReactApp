@@ -1,0 +1,153 @@
+.typeing::after
+{
+content: "";
+animation-name: typeskill;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+color: #63B3ED;
+font-size: 24px;
+}
+@keyframes typeskill
+{
+0%{ content: "|"; }
+1%{ content: "V|"; }
+2%{ content: "e|"; }
+3%{ content: "Veg|"; }
+4%{ content: "Vegen|"; }
+5%{ content: "Vege|"; }
+6%{ content: "Veg|"; }
+7%{ content: "Ve|"; }
+8%{ content: "V|"; }
+9%{ content: "|"; }
+13%{ content: "Ve|"; }
+14%{ content: "Veg|"; }
+15%{ content: "Vege|"; }
+16%{ content: "Veget|"; }
+17%{ content: "Vegetr|"; }
+18%{ content: "Vegetra|"; }
+19%{ content: "Vegetrai|"; }
+20%{ content: "Vegetrain|"; }
+21%{ content: "Vegetrai|"; }
+22%{ content: "Vegetra|"; }
+23%{ content: "Vegetr|"; }
+24%{ content: "Veget|"; }
+25%{ content: "Vege|"; }
+26%{ content: "Veg|"; }
+27%{ content: "Ve|"; }
+28%{ content: "V|"; }
+29%{ content: "|"; }
+30%{ content: "P|"; }
+31%{ content: "Pa|"; }
+32%{ content: "Pal|"; }
+33%{ content: "Pale|"; }
+34%{ content: "Paleo|"; }
+35%{ content: "Pale|"; }
+36%{ content: "Pal|"; }
+37%{ content: "Pa|"; }
+38%{ content: "P|"; }
+39%{ content: "|"; }
+40%{ content: "D|"; }
+41%{ content: "Da|"; }
+
+42%{ content: "Dai|"; }
+43%{ content: "Dair|"; }
+44%{ content: "Dairy-|"; }
+45%{ content: "Dairy-F|"; }
+46%{ content: "Dairy-Fr|"; }
+47%{ content: "Dairy-Fre|"; }
+48%{ content: "Dairy-Free|"; }
+49%{ content: "Dairy-Fre|"; }
+50%{ content: "Dairy-Fr|"; }
+51%{ content: "Dairy-F|"; }
+52%{ content: "Dairy|"; }
+53%{ content: "Dair|"; }
+54%{ content: "Dai|"; }
+55%{ content: "Da|"; }
+56%{ content: "D|"; }
+57%{ content: "|"; }
+58%{ content: "G|"; }
+59%{ content: "Gl|"; }
+60%{ content: "Glu|"; }
+61%{ content: "Glut|"; }
+62%{ content: "Glute|"; }
+63%{ content: "Gluten-|"; }
+64%{ content: "Gluten-F|"; }
+65%{ content: "Gluten-Free|"; }
+66%{ content: "Gluten-Fre|"; }
+67%{ content: "Gluten-Fr|"; }
+68%{ content: "Gluten-F|"; }
+69%{ content: "Gluten"; }
+70%{ content: "Glute|"; }
+71%{ content: "Glut|"; }
+72%{ content: "Glu|"; }
+73%{ content: "Gl|"; }
+74%{ content: "G|"; }
+75%{ content: "|"; }
+76%{ content: "L|"; }
+77%{ content: "Lo|"; }
+78%{ content: "Low|"; }
+79%{ content: "Low-S|"; }
+80%{ content: "Low-Su|"; }
+81%{ content: "Low-Sug|"; }
+82%{ content: "Low-Suge|"; }
+83%{ content: "Low-Suger|"; }
+84%{ content: "Low-Suge|"; }
+85%{ content: "Low-Sug|"; }
+86%{ content: "Low-Su|"; }
+87%{ content: "Low-S|"; }
+88%{ content: "Low|"; }
+89%{ content: "Lo|"; }
+90%{ content: "L|"; }
+91%{ content: "E|"; }
+92%{ content: "Eg|"; }
+93%{ content: "Egg|"; }
+94%{ content: "Eg|"; }
+95%{ content: "E|"; }
+96%{ content: "|"; }
+97%{ content: "S|"; }
+98%{ content: "Soy|"; }
+99%{ content: "So|"; }
+100%{ content: "|"; }
+}
+.img
+{
+    background-size: contain;
+    width: 100%;
+}
+
+
+
+::placeholder {
+    color: #5A5A5A !important;
+  }
+  .defaultcolor
+  {
+    color: #5A5A5A !important;
+  }
+.btncolor
+
+{
+    background-color: #2B6CB0;
+}
+.maincolor
+{
+    color: #63B3ED;
+
+}
+
+.cardbody {
+    height: 400px; /* Set a fixed height for the card body */
+    padding: 10px;
+    overflow: scroll;
+    
+  }
+  .layer
+  {
+    background-color: #90CDF4;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 500px;
+  }

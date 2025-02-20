@@ -1,13 +1,188 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --main-color: #2C5282;
+  --sec-color: #f0f3f2;
+  --shadow: rgba(145, 158, 171, .2) 0px 2px 4px -1px, rgba(145, 158, 171, .14) 0px 4px 5px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+  --font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.backmain {
+  background-color: #2C5282;
+}
+/* ===================================================NAVBAR ================================= */
+.navbar {
+
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.nav-link-logo {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+
+.land {
+  color: var(--main-color) !important;
+}
+
+.font-nav {
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 3px;
+}
+
+.font-logo {
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--main-color);
+  font-weight: 400;
+}
+
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+/* ==================================FORM STYLE========================================== */
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+/* ======================================= SCROLL====================================== */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 2px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}
+/* =================================RECIPES================================ */
+.age input[type="number"] {
+  border: 2px solid transparent;
+  outline: none;
+}
+
+.age input[type="number"]:focus {
+  border-color: transparent;
+}
+
+.weight input[type="number"] {
+  border: 2px solid transparent;
+  outline: none;
+}
+
+.weight input[type="number"]:focus {
+  border-color: transparent;
+}
+
+.height input[type="number"] {
+  border: 2px solid transparent;
+  outline: none;
+}
+
+.height input[type="number"]:focus {
+  border-color: transparent;
+
+}
+
+
+.bginputcalc {
+  background-color: #90CDF4;
+}
+.maintext {
+  color: #90CDF4;
+}
+
+
+
+
+/* ========================= FOOTER =================== */
+::selection {
+  color: #007bff;
+}
+.dash{
+  color: #90CDF4;
+  line-height: 27px;
+  
+}
+
+.active {
+  color: #fff !important;
+  background-color:#2C5282;
+  transition:  0.8s ;
+  border-radius: 50px;
+
+}
+
+.nav-link:hover {
+  color: #fff;
+  transition:  0.8s ;
+
+ border-radius: 50px;
+ background-color:#2C5282;
+}
+
+.navbar-toggler
+{
+  background-color: #2C5282;
+  color: #fff;
+}
+
+.backmainn {
+  background-color: #90CDF4;
 }
