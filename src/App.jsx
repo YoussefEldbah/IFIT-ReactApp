@@ -30,8 +30,8 @@ export default function App() {
         { path: "nutrition", element: <Nutrition /> },
         { path: "detailsarticle/:id", element: <DetailsArticle /> },
         { path: "contactus", element: <ContactUs /> },
-        { path: "notfound", element: <NotFound /> },
-        { path: "food", element: <Mesho /> }
+        { path: "notfound", element: <NotFound /> }
+        // { path: "food", element: <Mesho /> }
       ]
     }
   ])

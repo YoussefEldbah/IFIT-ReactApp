@@ -58,7 +58,6 @@ const Recipe = () => {
         });
       }
     } catch (error) {
-      // Handle error
       console.error('Error fetching recipes:', error);
       toast.error('No recipes found for the given criteria.', {
         position: "bottom-right",

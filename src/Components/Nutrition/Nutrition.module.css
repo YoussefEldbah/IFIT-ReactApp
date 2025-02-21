@@ -37,9 +37,9 @@
 
 .btn {
 color: white;
-    padding: 6px 20px;
+    padding: 6px 30px !important;
     text-align: center;
-    width: 13%;
+    /* width: 100px; */
     text-decoration: none;
     border: none;
     border-radius: 5px;

@@ -22,32 +22,33 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink to={'home'} className="nav-link  font-nav" activeClassName="active" onClick={scrollToTop} aria-current="page">Home</NavLink>
+              <NavLink to={'home'} className="nav-link p-2  font-nav" activeClassName="active" onClick={scrollToTop} aria-current="page">Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to={'topfeature'} className="nav-link font-nav" activeClassName="active" onClick={scrollToTop} aria-current="page">Top Features</NavLink>
+              <NavLink to={'topfeature'} className="nav-link p-2 t-3 font-nav" activeClassName="active" onClick={scrollToTop} aria-current="page">Top Features</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to={'articles'} className="nav-link font-nav" activeClassName="active" onClick={scrollToTop}>Articles</NavLink>
+              <NavLink to={'articles'} className="nav-link p-2  font-nav" activeClassName="active" onClick={scrollToTop}> Exercises
+              </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to={'aboutus'} className="nav-link font-nav" activeClassName="active" onClick={scrollToTop} aria-current="page">About Us</NavLink>
+              <NavLink to={'aboutus'} className="nav-link p-2 font-nav" activeClassName="active" onClick={scrollToTop} aria-current="page">About Us</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to={'contactus'} className="nav-link font-nav" activeClassName="active" onClick={scrollToTop} aria-current="page">Contact Us</NavLink>
+              <NavLink to={'contactus'} className="nav-link p-2  font-nav" activeClassName="active" onClick={scrollToTop} aria-current="page">Contact Us</NavLink>
             </li>
             <li className="nav-item dropdown">
-              <NavLink to={'services'} className="nav-link font-nav me-5 dropdown-toggle" activeClassName="active" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <NavLink to={'services'} className="nav-link p-2 font-nav me-5 dropdown-toggle" activeClassName="active" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Our Services
               </NavLink>
               <div className="row">
                 <div className="col-md-8">
                   <ul className="dropdown-menu">
-                    <li><NavLink to={'calccalories'} className=" nav-link mx-2 mt-1" onClick={scrollToTop}> Calculate Calories </NavLink></li>
-                    <li><NavLink to={'calcmacro'} className=" nav-link mx-2 mt-1" onClick={scrollToTop}>Calculate Macros</NavLink></li>
-                    <li><NavLink to={'recipe'} className=" nav-link mx-2 mt-1" onClick={scrollToTop}>Get Recipe</NavLink></li>
-                    <li><NavLink to={'nutrition'} className=" nav-link mx-2 mt-1" onClick={scrollToTop}>Nutrition Analysis</NavLink></li>
-                    <li><NavLink to={'food'} className=" nav-link mx-2 mt-1" onClick={scrollToTop}>Some Recipes</NavLink></li>
+                    <li><NavLink to={'calccalories'} className="p-2 nav-link mx-2 mt-1" onClick={scrollToTop}> Calculate Calories </NavLink></li>
+                    <li><NavLink to={'calcmacro'} className="p-2 nav-link mx-2 mt-1" onClick={scrollToTop}>Calculate Macros</NavLink></li>
+                    <li><NavLink to={'recipe'} className=" p-2 nav-link mx-2 mt-1" onClick={scrollToTop}>Get Recipe</NavLink></li>
+                    <li><NavLink to={'nutrition'} className="p-2 nav-link mx-2 mt-1" onClick={scrollToTop}>Nutrition Analysis</NavLink></li>
+                    {/* <li><NavLink to={'food'} className=" nav-link mx-2 mt-1" onClick={scrollToTop}>Some Recipes</NavLink></li> */}
 
                   </ul>
                 </div>
