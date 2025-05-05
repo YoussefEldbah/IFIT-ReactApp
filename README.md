@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# **IFIT 🏋️‍♂️🍏**  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **🏋️‍♂️ About IFIT**  
 
-## Available Scripts
+IFIT is your all-in-one fitness companion, designed to help you achieve your health goals with ease. Whether you are looking to build muscle, lose weight, or simply stay fit, IFIT provides:  
 
-In the project directory, you can run:
+- **Customized Exercise Plans** – Choose workouts based on your muscle groups.  
+- **Calorie & Macronutrient Tracking** – Check your daily intake of calories, protein, carbs, and fats.  
+- **Healthy Recipes** – Get nutrition facts and recipe suggestions via Edamam API.  
+- **Responsive Design** – Enjoy a seamless experience on desktop and mobile devices.  
 
-### `npm start`
+### **🌟 Why Choose IFIT?**  
+✅ Easy-to-use interface  
+✅ Science-backed exercise & nutrition tracking  
+✅ Integrated with **Edamam API** for accurate nutrition facts  
+✅ Free and always improving!  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## **✨ Features**  
+✅ **Landing Page** with an intuitive and engaging design  
+✅ Search for exercises based on muscle groups  
+✅ Calculate **calories, protein, carbs, and fat** intake  
+✅ Fetch **nutrition facts and recipes** from the Edamam API  
+✅ Responsive and mobile-friendly UI  
+✅ Built with **React, Context API, Axios, React Query, and Formik**  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **🌐 Live Demo**  
+🔗 **[IFIT Live](https://ifit-git-main-yousef-eldbahs-projects.vercel.app/)**  
 
-### `npm run build`
+## **🛠️ Technologies Used**  
+- **Frontend:** React, React Router, Bootstrap  
+- **State Management:** Context API, React Query  
+- **Form Handling & Validation:** Formik, Yup  
+- **API Calls:** Axios, Edamam API  
+- **UI Components:** React Responsive Carousel, React Slick  
+**Start your fitness journey today with IFIT!**  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## **📦 Installation**  
+```bash
+git clone https://github.com/yourusername/ifit.git
+cd ifit
+npm install
+npm start
