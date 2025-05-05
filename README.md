@@ -26,7 +26,7 @@ IFIT is your all-in-one fitness companion, designed to help you achieve your hea
 ✅ Built with **React, Context API, Axios, React Query, and Formik**  
 
 ## **🌐 Live Demo**  
-🔗 **[IFIT Live](https://ifit-git-main-yousef-eldbahs-projects.vercel.app/)**  
+🔗 **[IFIT Live](https://ifit-react-app.vercel.app/)**  
 
 ## **🛠️ Technologies Used**  
 - **Frontend:** React, React Router, Bootstrap  
