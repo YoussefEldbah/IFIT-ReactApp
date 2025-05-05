@@ -31,9 +31,7 @@ const NavBar = () => {
               <NavLink to={'articles'} className="nav-link p-2  font-nav" activeClassName="active" onClick={scrollToTop}> Exercises
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink to={'aboutus'} className="nav-link p-2 font-nav" activeClassName="active" onClick={scrollToTop} aria-current="page">About Us</NavLink>
-            </li>
+          
             <li className="nav-item">
               <NavLink to={'contactus'} className="nav-link p-2  font-nav" activeClassName="active" onClick={scrollToTop} aria-current="page">Contact Us</NavLink>
             </li>

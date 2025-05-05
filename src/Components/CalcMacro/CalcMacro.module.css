@@ -2,16 +2,88 @@
 .titleCheck
 {
 font-weight: 400;
-font-size: 30px;
+font-size: clamp(1.5rem, 3vw, 2rem);
+margin-bottom: 1rem;
 }
 .titleCalories,titleP
 {
     font-weight: 700;
-    font-size: 30px;
-    
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: #3182CE;
 }
 .titleGet
 {
-    font-size: 16px;
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
     font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.imgcalc {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.bginputcalc {
+    background-color: #3182CE;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btnCalc {
+    margin-left: 0;
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .titleCheck,
+    .titleCalories,
+    .titleP {
+        font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    }
+
+    .titleGet {
+        font-size: clamp(0.75rem, 1.25vw, 0.875rem);
+    }
+
+    .bginputcalc {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .titleCheck,
+    .titleCalories,
+    .titleP {
+        font-size: clamp(1rem, 2vw, 1.5rem);
+    }
+
+    .btnCalc {
+        max-width: 100%;
+    }
+
+    .bginputcalc {
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .titleCheck,
+    .titleCalories,
+    .titleP {
+        font-size: clamp(0.875rem, 1.75vw, 1.25rem);
+    }
+
+    .titleGet {
+        font-size: clamp(0.625rem, 1vw, 0.75rem);
+    }
+
+    .bginputcalc {
+        padding: 0.5rem;
+    }
 }

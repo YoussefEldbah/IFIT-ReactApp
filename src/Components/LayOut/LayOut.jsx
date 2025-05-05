@@ -9,7 +9,7 @@ const LayOut = () => {
   return(<>
    <NavBar/>
 <Outlet/>
-<Toaster/>
+{/* <Toaster/> */}
  <Footer/>
   </>)
 };

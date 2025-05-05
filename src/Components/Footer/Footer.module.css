@@ -1,50 +1,163 @@
-
-
 .footerbg2 {
     background-color: #2B2B2B;
 }
-.maintext
-{
-    color: #63B3ED  ;
 
+.maintext {
+    color: #63B3ED;
 }
 
 ::placeholder {
     color: #fff !important;
-  }
-  .stybtn
-  {
+}
+
+.stybtn {
     bottom: 10px;
     right: 5px;
     text-align: center;
     padding: 5px 20px;
-  }
+}
 
-  .ico
-  {
-      width: 3rem;
-      height: 3rem;
-      cursor: pointer;
-      transition: .3s ease;
-  }
-  .ico:hover {
-    background-color: #2563EB ;
+.ico {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.ico:hover {
+    background-color: #2563EB;
     color: #fff;
-  }
+}
 
+.downloadimg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
 
-  .google
-  {
+.google {
     width: 110px;
     height: 50px;
-  }
-  .apple
-  {
+    object-fit: contain;
+}
+
+.apple {
     width: 110px;
     height: 50px;
-  }
-  .link:hover {
+    object-fit: contain;
+}
+
+.link:hover {
     color: #007bff !important;
-   border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+.text-footer {
+    max-width: 500px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.iconFollow {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .text-footer {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .text-footer {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .downloadimg {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .logo img {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer1 {
+        padding: 20px 0;
+    }
+
+    .text-footer h6 {
+        font-size: 1.1rem;
+    }
+
+    .text-footer h5 {
+        font-size: 1.3rem;
+    }
+
+    .text-footer p {
+        font-size: 0.9rem;
+    }
+
+    .google, .apple {
+        width: 100px;
+        height: 45px;
+    }
+
+    .ico {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer1 {
+        padding: 15px 0;
+    }
+
+    .text-footer h6 {
+        font-size: 1rem;
+    }
+
+    .text-footer h5 {
+        font-size: 1.2rem;
+    }
+
+    .text-footer p {
+        font-size: 0.8rem;
+    }
+
+    .google, .apple {
+        width: 90px;
+        height: 40px;
+    }
+
+    .ico {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+
+    .logo img {
+        max-width: 120px;
+    }
+    .iconFollow {
+      justify-content: center; 
+      width:60% ;
+      margin: 0 auto;
+    }
   
-  }
+}

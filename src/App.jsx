@@ -26,12 +26,10 @@ export default function App() {
         { path: "articles", element: <Articles/> },
         { path: "recipe", element: <Recipe/> },
         { path: "topfeature", element: <TopFeature /> },
-        { path: "aboutus", element: <AboutUs /> },
         { path: "nutrition", element: <Nutrition /> },
         { path: "detailsarticle/:id", element: <DetailsArticle /> },
         { path: "contactus", element: <ContactUs /> },
         { path: "notfound", element: <NotFound /> }
-        // { path: "food", element: <Mesho /> }
       ]
     }
   ])

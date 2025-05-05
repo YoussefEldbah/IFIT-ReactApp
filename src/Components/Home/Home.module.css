@@ -1,6 +1,6 @@
 .home {
     min-height: 100vh;
-
+    padding: 20px 0;
 }
 
 .sty {
@@ -363,4 +363,137 @@
       rotate: 0;
     }
   }
+  
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .imghome {
+        height: 500px;
+        width: 480px;
+    }
+    
+    .img2 {
+        right: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .imghome {
+        height: 400px;
+        width: 380px;
+    }
+    
+    .img2 {
+        right: 50px;
+    }
+    
+    .card {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    
+    .section2 {
+        text-align: center;
+    }
+    
+    .line, .lineL {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .imghome {
+        height: 300px;
+        width: 280px;
+    }
+    
+    .img2 {
+        right: 30px;
+    }
+    
+    .icon-home {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .icohome {
+        margin: 5px;
+    }
+    
+    .download-img {
+        justify-content: center !important;
+    }
+    
+    .section1, .section2, .section3, .section4, .section5 {
+        text-align: center;
+    }
+    
+    .home-title {
+        text-align: center;
+    }
+    
+    .bglastsec {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .imghome {
+        height: 250px;
+        width: 230px;
+    }
+    
+    .img2 {
+        right: 20px;
+    }
+    
+    .google, .apple {
+        width: 70px;
+        height: 25px;
+    }
+    
+    .card {
+        height: auto !important;
+        padding: 15px;
+    }
+    
+    .ico {
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 15px;
+    }
+    
+    .rotateimage {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .iconlastsec {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 400px) {
+    .imghome {
+        height: 200px;
+        width: 180px;
+    }
+    
+    .img2 {
+        right: 15px;
+    }
+    
+    .google, .apple {
+        width: 60px;
+        height: 20px;
+    }
+    
+    .h {
+        font-size: 14px;
+    }
+    
+    .p {
+        font-size: 12px;
+    }
+}
   

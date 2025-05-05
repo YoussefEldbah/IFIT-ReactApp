@@ -26,8 +26,8 @@ const Home = () => {
 
       <section className={`${styles.home} mb-5`}>
         <div className="container my-5">
-          <div className="row section1">
-            <div className="col-md-7 mt-5 pt-3">
+          <div className="row section1 align-items-center">
+            <div className="col-lg-7 col-md-12 mt-5 pt-3">
               <div className="home-title mt-5">
                 <p className='fs-4 mb-3'>
                   <span className='dash'>-</span> The Best Fitness & Workout App
@@ -35,11 +35,11 @@ const Home = () => {
                 <h4>Your All-in-One</h4>
                 <h2 className={`${styles.maintext} fw-bold`}>Fitness App</h2>
               </div>
-              <div className="download-img mt-4 text-start p-0 d-flex justify-content-start align-items-center">
+              <div className="download-img mt-4 text-start p-0 d-flex justify-content-start justify-content-md-center align-items-center">
                 <img className={`${styles.google}`} src={google} alt="Google Play" />
                 <img className={`${styles.apple}`} src={apple} alt="Apple Store" />
               </div>
-              <div className="icon-home d-flex justify-content-start align-items-center mt-3">
+              <div className="icon-home d-flex justify-content-start justify-content-md-center align-items-center mt-3 flex-wrap">
                 <img src={icon1} className={`${styles.icohome} rounded-circle`} alt="icon1" />
                 <img src={icon2} className={`${styles.icohome} rounded-circle`} alt="icon2" />
                 <img src={icon3} className={`${styles.icohome} rounded-circle`} alt="icon3" />
@@ -49,53 +49,49 @@ const Home = () => {
                 <img src={icon7} className={`${styles.icohome} rounded-circle`} alt="icon7" />
                 <i className={`${styles.sty} rounded-circle`}>+5</i>
                 <i className={`${styles.st} ms-1 fa-solid fa-plus p-2 rounded-circle`}></i>
-                <h6 className={` ${styles.h} p-1 ms-3 mt-5`}>
+                <h6 className={`${styles.h} p-1 ms-3 mt-5`}>
                   5M + <br />
                   <span className={`${styles.p}`}>Worldwide Users</span>
                 </h6>
               </div>
             </div>
-            <div className="col-md-5 position-relative">
-              <div className="img1 d-flex">
+            <div className="col-lg-5 col-md-12 position-relative mt-5 mt-lg-0">
+              <div className="img1 d-flex justify-content-center">
                 <img className={`${styles.imghome}`} src={home2} alt="home2" />
-                
-
                 <div className={`${styles.img2} position-absolute`}>
                   <img className={`${styles.imghome}`} src={home1} alt="home1" />
                 </div>
-                
               </div>
             </div>
-            
           </div>
 
           <div className="row section2 d-flex justify-content-between mt-5">
-            <div className="col-md-6">
+            <div className="col-lg-6 col-md-12">
               <h3>
                 <span className='dash'>-</span> Download Our
               </h3>
-              <div className="d-flex">
+              <div className="d-flex flex-wrap">
                 <h2 className={`${styles.maintext}`}>Fitness App</h2>
                 <h2 className='ms-1 mb-5'>Today!</h2>
               </div>
-              <div className="d-flex mt-5 justify-content-between">
-                <div className="sec1">
+              <div className="d-flex mt-5 justify-content-between flex-wrap">
+                <div className="sec1 mb-3 mb-md-0">
                   <h4>5 Million+</h4>
                   <p>Worldwide Active Users</p>
                 </div>
-                <div className={`${styles.line}`}></div>
-                <div className="sec2">
+                <div className={`${styles.line} d-none d-md-block`}></div>
+                <div className="sec2 mb-3 mb-md-0">
                   <h4>600+</h4>
                   <p>Healthy Meal</p>
                 </div>
-                <div className={`${styles.line}`}></div>
+                <div className={`${styles.line} d-none d-md-block`}></div>
                 <div className="sec3">
                   <h4>750+</h4>
                   <p>Workout</p>
                 </div>
               </div>
             </div>
-            <div className="col-md-3 text-center">
+            <div className="col-lg-3 col-md-6 text-center mt-5 mt-lg-0">
               <h3>For iOS</h3>
               <p className='mb-5'>iOS 15.6 +</p>
               <button className={`${styles.backmain} px-2 py-1 border-0 mb-5 rounded-4 text-white`}>Download</button>
@@ -103,7 +99,7 @@ const Home = () => {
                 <i className="fa-solid fs-1 fa-qrcode"></i>
               </p>
             </div>
-            <div className="col-md-3 text-center">
+            <div className="col-lg-3 col-md-6 text-center mt-5 mt-lg-0">
               <h3>For Android</h3>
               <p className='mb-5'>Android 8.6 +</p>
               <button className={`${styles.backmain} px-2 py-1 border-0 mb-5 rounded-4 text-white`}>Download</button>
@@ -114,7 +110,7 @@ const Home = () => {
           </div>
 
           <div className="row section3 mt-5">
-            <div className="col-md-8">
+            <div className="col-lg-8 col-md-12">
               <div className="home-title mt-5">
                 <h4>
                   <span className='dash'>-</span> Benefits of Fitness App
@@ -123,7 +119,7 @@ const Home = () => {
                 <h4>of Fitness App</h4>
               </div>
             </div>
-            <div className={`${styles.lineL} col-md-4 mt-5`}>
+            <div className={`${styles.lineL} col-lg-4 col-md-12 mt-5 d-none d-lg-block`}>
               <h6 className='mt-2'>
                 Track your progress, challenge yourself with dynamic workouts, and unlock your full potential.
               </h6>
@@ -131,8 +127,8 @@ const Home = () => {
           </div>
 
           <div className="row section4 mt-5">
-            <div className="col-md-3">
-              <div className={`${styles.card} pb-5 text-center`}>
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div className={`${styles.card} pb-5 text-center h-100`}>
                 <div className="card-body">
                   <div className={`${styles.ico} rounded-circle d-flex justify-content-center align-items-center m-auto mt-1`}>
                     <i className={` ${styles.iconsty} text-white fa-regular fs-2 fa-clock`}></i>
@@ -148,8 +144,8 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="col-md-3">
-              <div className={`${styles.card} pb-4 text-center`}>
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div className={`${styles.card} pb-4 text-center h-100`}>
                 <div className="card-body">
                   <div className={`${styles.ico} rounded-circle d-flex justify-content-center align-items-center m-auto mt-1`}>
                     <i className={`${styles.iconsty} text-white fa-solid fs-2 fa-dumbbell`}></i>
@@ -165,8 +161,8 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="col-md-3">
-              <div className={`${styles.card} text-center`}>
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div className={`${styles.card} text-center h-100`}>
                 <div className="card-body">
                   <div className={`${styles.ico} rounded-circle d-flex justify-content-center align-items-center m-auto mt-1`}>
                     <i className={`${styles.iconsty} text-white fa-solid fs-2 fa-heart`}></i>
@@ -182,8 +178,8 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="col-md-3">
-              <div className={`${styles.card} text-center`}>
+            <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div className={`${styles.card} text-center h-100`}>
                 <div className="card-body">
                   <div className={`${styles.ico} rounded-circle d-flex justify-content-center align-items-center m-auto mt-1`}>
                     <i className={`${styles.iconsty} text-white fa-solid fs-2 fa-bolt-lightning`}></i>
@@ -201,7 +197,7 @@ const Home = () => {
           </div>
 
           <div className="row section5 text-center my-5">
-            <div className="col-md-2 text-start">
+            <div className="col-lg-2 col-md-12 text-lg-start text-center mb-4 mb-lg-0">
               <div className="title">
                 <h4>
                   <span className='dash'>-</span> Training
@@ -213,9 +209,9 @@ const Home = () => {
                 <h4>we offer to you</h4>
               </div>
             </div>
-            <div className="col-md-10">
+            <div className="col-lg-10 col-md-12">
               <div className={`${styles.bglastsec} row sections p-3 rounded-3 d-flex justify-content-start align-items-center`}>
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                   <div className="sec1 text-start">
                     <div className="title d-flex">
                       <h6 className='mt-3'>Losing or gaining weight</h6>
@@ -226,7 +222,7 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-4 border-end">
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                   <div className="sec1 text-start">
                     <div className="title d-flex justify-content-between">
                       <h6 className='mt-3'>Fitness</h6>
@@ -237,7 +233,7 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                   <div className="sec1 text-start">
                     <div className="title d-flex justify-content-between">
                       <h6 className='mt-3'>Muscles</h6>
